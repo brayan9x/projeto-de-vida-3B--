@@ -1,15 +1,48 @@
-.tit-1 {
-    color: aquamarine;
-    
+:root
+{
+    --cor-de-fundo: #f5f5f5;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --botao-ativo: #A020F0;
+    --botao-inativo: #FF00FF;
+    --texto-fundo: #87CEFA;
+    --cor-borda: #000000;
 }
-.tit-2{
-    color:pink;
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
-.it-1 {
-    color: blue;
+.titulo-principal{
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    color: var(--preto);
 }
-
-.button-1 {
-    color: aliceblue;
-    background-color: crimson;
+.botao {
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display:flex ;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--cor-borda);
+    border-left: 2px solid var(--cor-borda);
+    border-right: 2px solid var(--cor-borda);
+    border-top: 4px solid var(--cor-borda);
 }
+.botoes{
+    display: block;
+}
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+    border-left: 4px solid var(--cor-borda);
+}
+@midia screen and (min-width: 768px)
+{}
