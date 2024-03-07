@@ -64,15 +64,17 @@
         border-right: 4px solid var(--cor-borda);
     }
 }
-body{
+
+body {
     background-color: var(--botao-ativo);
 }
-.botao.ativo
-{
+
+.botao.ativo {
     background-color: var(--botao-ativo);
     color: #000000;
 }
-.abas-textos{
+
+.abas-textos {
     background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
@@ -80,9 +82,11 @@ body{
     border-right: 4px solid var(--cor-borda);
     border-left: 4px solid var(--cor-borda);
 }
-.aba-conteudo.ativo{
+
+.aba-conteudo.ativo {
     display: block;
 }
-.aba-conteudo{
+
+.aba-conteudo {
     display: none;
 }
