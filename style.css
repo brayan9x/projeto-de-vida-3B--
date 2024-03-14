@@ -70,7 +70,7 @@ body {
 }
 
 .botao.ativo {
-    background-color: var(--texto-fundo);
+    background-color: var(--botao-ativo);
     color: #000000;
 }
 
