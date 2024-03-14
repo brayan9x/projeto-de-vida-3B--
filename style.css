@@ -66,7 +66,7 @@
 }
 
 body {
-    background-color: var(--botao-inativo);
+    background-color: var(--texto-fundo)
 }
 
 .botao.ativo {
