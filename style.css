@@ -46,7 +46,7 @@
 
 .botao:first-child {
     border-radius: 40px 40px 0 0;
-    border-left: 4px solid var(--cor-borda);
+    border-left: 4px solid var(--botao-inativo);
 }
 
 @midia screen and (min-width: 768px) {
