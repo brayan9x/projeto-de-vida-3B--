@@ -37,7 +37,7 @@
     border-bottom: 4px solid var(--cor-borda);
     border-left: 2px solid var(--cor-borda);
     border-right: 2px solid var(--cor-borda);
-    border-top: 4px solid var(--cor-borda);
+    border-top: 4px solid var(--botao-inativo);
 }
 
 .botoes {
@@ -46,7 +46,7 @@
 
 .botao:first-child {
     border-radius: 40px 40px 0 0;
-    border-left: 4px solid var(--botao-inativo);
+    border-left: 4px solid var(--cor-borda);
 }
 
 @midia screen and (min-width: 768px) {
