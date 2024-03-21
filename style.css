@@ -37,7 +37,7 @@
 
 .botao {
     background-color: pink;
-    color: var(--branco);
+    color: var(--preto);
     display: flex;
     justify-content: center;
     padding: 1em;
