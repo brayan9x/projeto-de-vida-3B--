@@ -36,7 +36,7 @@
 }
 
 .botao {
-    background-color: var(--botao-inativo);
+    background-color: pink;
     color: var(--branco);
     display: flex;
     justify-content: center;
