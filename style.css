@@ -36,7 +36,7 @@
 }
 
 .botao {
-    background-color: pink;
+    background-color: var(--botao-inativo);
     color: var(--preto);
     display: flex;
     justify-content: center;
@@ -81,11 +81,11 @@ body {
 
 .botao.ativo {
     background-color: var(--botao-ativo);
-    color: #000000;
+    color: var(--branco);
 }
 
 .abas-textos {
-    background-color: green;
+    background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
     border-bottom: 4px solid var(--cor-borda);
